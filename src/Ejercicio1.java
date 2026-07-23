@@ -12,7 +12,7 @@ public class Ejercicio1 {
         for (int i = 1; i <= cantidadVentas; i++){
 
             ValorVenta = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el valor de la venta #" + i));
-            
+
             totalVentas = totalVentas + ValorVenta;
 
         }
