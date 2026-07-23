@@ -13,7 +13,7 @@ public class Ejercicio2 {
         for (int i = 1; i <= cantidadPiezas; i++){
 
             peso = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el peso de la pieza #" + i + "(gramos):"));
-            
+
             if (peso >= 100 && peso <= 120){
                 aprobadas++;
 
